@@ -22,11 +22,13 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 # Requerimientos
 
+[[Volver a tabla de contenido](#contents)]
+
 ## Requerimientos funcionales
 
 <br>
 
-
+[[Volver a tabla de contenido](#contents)]
 
 <br>
 
@@ -110,6 +112,7 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 ## Requerimientos no funcionales
 
+[[Volver a tabla de contenido](#contents)]
 
 <br>
 
@@ -215,13 +218,27 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 [[Volver a tabla de contenido](#contents)]
 
+### C#
+![](https://th.bing.com/th/id/OIP.VNdbOFNYDXuLEU1OvV1fsgHaHa?pid=ImgDet&rs=1)
+<br>
+El lenguaje más popular de Microsoft, inspirado en C y C++ de propósito general, especialmente usado para el desarrollo dentro de la plataforma .NET pero también en productos como Xamarin y Unity.
+
+C# es uno de los lenguajes más populares de la industria del software. Es el lenguaje de cabecera de Microsoft, aunque se puede usar en múltiples plataformas de desarrollo de aplicaciones de todo tipo.
+
+C# es un lenguaje de tipado estático y multiparadigma, aunque principalmente orientado a objetos. Microsoft presenta actualizaciones muy frecuentes, por lo que resulta bastante evolucionado, ofreciendo herramientas poderosas para los desarrolladores.
+
+### SQL Server
+![](https://th.bing.com/th/id/OIP.Z86hSked6bhCCrvwCgOa_AHaD2?pid=ImgDet&rs=1)
+<br>
+
+### Microsoft SQL Server Management Studio
+![](https://th.bing.com/th/id/OIP.f0FMP1P9q5cv-nOOSLHBMAAAAA?w=129&h=160&c=7&r=0&o=5&dpr=1.25&pid=1.7)
+<br>
+
+
 ## Necesidad
 
-Actualmente la necesidad de consultar información y/o acceder a servicios en linea se hace indispensable en el modelo de negocio de casi cualquier proyecto. Estas soluciones tecnológicas siguen surgiendo en mayor medida y proporcionan altas ventajas. Por esto el diseño, desarrollo e implementación de un sotware en el modelo de negocio sera indispensable en el proceso de crecimiento empresarial dentro de una compañía que se lo proponga. 
-
-De esta manera se abrirá la posibilidad de una globalización del proyecto en cuestión facilitando así la captación de clientes y la facilidad de adquirir - consultar servicios y/o productos sin necesidad de tiendas físicas. Incrementando también las facilidades para los propietarios de gestionar pedidos y realizar todo tipo de acciones requeridas como insertar modificar o eliminar datos de los registros que se deseen implementar. 
-
-Dentro de este documento nos centraremos en identificar una necesidad actual de un grupo e usuarios específicos y plantearemos una solución que podrá ser implementada a través de un proyecto de desarrollo de software bajo metodologías ágiles.
+[[Volver a tabla de contenido](#contents)]
 
 ## Diseño de interfaz.
 
@@ -233,6 +250,7 @@ Dentro de este documento nos centraremos en identificar una necesidad actual de 
 
 ## Arquitectura de software
 
+[[Volver a tabla de contenido](#contents)]
 
 El proyecto se basará en el Modelo Vista Controlador debido a su gran utilización en el mercado, esto se debe a que la estructura desarrollada por modulos, permite al desarrollador trabajar en paralelo sin afectar la operación del software.
 
@@ -249,6 +267,7 @@ Unas de las caracteristicas y ventajas más destacadas de este modelo son:
 
 ## Metodología usada.
 
+[[Volver a tabla de contenido](#contents)]
 
 Metodología de desarrollo.
 
