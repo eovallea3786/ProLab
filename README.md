@@ -1,5 +1,18 @@
 # ProLab
 
+## Contents
+
+- [Introducción](#introducción)
+- [Requerimientos](#requerimientos)
+  - [Requerimientos funcionales](#requerimientos-funcionales)
+  - [Requerimientos no funcionales](#requerimientos-no-funcionales)
+- [Herramientas usadas para la solución](#herramientas-usadas-para-la-solución)
+- [Necesidad](#necesidad)
+- [MER (Modelo Entidad Relación)](#mer-modelo-entidad-relación)
+- [Arquitectura de software](#arquitectura-de-software)
+- [Metodología usada](#metodología-usada)
+
+
 ## Introducción
 Software de inventario en un laboratorio con elementos químicos
 
@@ -9,7 +22,14 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 # Requerimientos
 
+[[Volver a tabla de contenido](#contents)]
+
 ## Requerimientos funcionales
+
+<br>
+
+[[Volver a tabla de contenido](#contents)]
+
 <br>
 
 | Número de requerimiento | RF001 |
@@ -91,6 +111,7 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 | Prioridad del requerimiento | Media/Deseado |
 
 ## Requerimientos no funcionales
+[[Volver a tabla de contenido](#contents)]
 <br>
 
 | Número de requerimiento | RNF001 |
@@ -189,3 +210,28 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 | Fuente del requerimiento | Usuario |
 | Proceso | El sistema no permitirá revelar a usuarios no autorizados datos  de características específicas de los envíos o  números de contacto directo de los proveedores. |
 | Prioridad del requerimiento | Alta/Esencial |
+
+
+## Herramientas usadas para la solución.
+
+[[Volver a tabla de contenido](#contents)]
+
+## Necesidad
+
+[[Volver a tabla de contenido](#contents)]
+
+## Diseño de interfaz.
+
+[[Volver a tabla de contenido](#contents)]
+
+## MER (Modelo Entidad Relación)
+
+[[Volver a tabla de contenido](#contents)]
+
+## Arquitectura de software
+
+[[Volver a tabla de contenido](#contents)]
+
+## Metodología usada.
+
+[[Volver a tabla de contenido](#contents)]
