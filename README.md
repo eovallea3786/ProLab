@@ -236,4 +236,32 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 ## Metodología usada.
 
-[[Volver a tabla de contenido](#contents)]
+Metodología de desarrollo.
+
+Para el desarrollo de este proyecto haremos uso de conocimientos no solamente de la unidad de estudio sino de 
+metodologías de gestión de proyectos Scrum – Agile con un componente KANBAN que nos permita 
+seguimiento a las actividades y estará basado en desarrollo iterativo de 2 sprints con backlog.
+
+Para establecer la estimación delas actividades y construir un backlog realizamos un sprint planning 
+donde identificamos las actividades a realizar, refinamos las actividades y posteriormente 
+realizaremos la estimación de acuerdo a las actividades definidas
+Backlog preliminar.
+
+Sprint 1:
+• Definir plataforma de desarrollo
+• Definir diseño de la aplicación 
+• Hacer un prototipo de la web con el MVP definido
+• Codificar solución
+• Pruebas unitarias
+• Pilotear
+• Despliegue
+• Testear prototipo y realizar ajustes si se requieren
+
+Sprint 2:
+• Definición de nuevas funcionalidades
+• Prototipito de nuevas funcionalidades
+• Testear prototipo y realizar ajustes si se requieren
+• Codificar solución
+• Pruebas unitarias
+• Pilotear
+• Despliegue
