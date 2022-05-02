@@ -234,7 +234,19 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 [[Volver a tabla de contenido](#contents)]
 
+El proyecto se basará en el Modelo Vista Controlador debido a su gran utilización en el mercado, esto se debe a que la estructura desarrollada por modulos, permite al desarrollador trabajar en paralelo sin afectar la operación del software.
+
+Porlo tanto si un usuario desea navegar en una pagina y decide visualizar el estado de un producto, este relalizara una peticiòn directa a un controlador en especifico. Posteriormente este realizarà la solicitud con la secciòn modelo para que este a su vez realice una consulta a la base de datos.
+Posteriormente se enviará la información al controlador y desde allí a la vista quien finalmente presentará la respuesta al usuario con la solicitud.
+
+Unas de las caracteristicas y ventajas más destacadas de este modelo son:
+- Fácil mantenimiento del código.
+- Fácil de extender y crecer (facilidad de modificación).
+- Los componentes del modelo MVC pueden ser probados por separado del usuario ya que todas las clases y objetos son independientes entre sí.
+
 ## Metodología usada.
+
+[[Volver a tabla de contenido](#contents)]
 
 Metodología de desarrollo.
 
