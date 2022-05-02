@@ -220,7 +220,7 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 ## Necesidad
 
-Actualmente la necesidad de consultar información y/o acceder a servicios en linea se hace indispensable en el modelo de negocio de casi cualquier proyecto. Estas soluciones tecnológicas siguen surgiendo en mayor medida y proporcionan altas ventajas. Por esto el diseño, desarrollo e implementación del desarrollo de un sotware en el modelo de negocio sera indispensable en el proceso de crecimiento empresarial dentro de una compañía que se lo proponga. 
+Actualmente la necesidad de consultar información y/o acceder a servicios en linea se hace indispensable en el modelo de negocio de casi cualquier proyecto. Estas soluciones tecnológicas siguen surgiendo en mayor medida y proporcionan altas ventajas. Por esto el diseño, desarrollo e implementación de un sotware en el modelo de negocio sera indispensable en el proceso de crecimiento empresarial dentro de una compañía que se lo proponga. 
 
 De esta manera se abrirá la posibilidad de una globalización del proyecto en cuestión facilitando así la captación de clientes y la facilidad de adquirir - consultar servicios y/o productos sin necesidad de tiendas físicas. Incrementando también las facilidades para los propietarios de gestionar pedidos y realizar todo tipo de acciones requeridas como insertar modificar o eliminar datos de los registros que se deseen implementar. 
 
