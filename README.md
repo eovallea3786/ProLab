@@ -248,20 +248,36 @@ realizaremos la estimación de acuerdo a las actividades definidas
 Backlog preliminar.
 
 Sprint 1:
+<br><br>
 • Definir plataforma de desarrollo
+<br>
 • Definir diseño de la aplicación 
+<br>
 • Hacer un prototipo de la web con el MVP definido
+<br>
 • Codificar solución
+<br>
 • Pruebas unitarias
+<br>
 • Pilotear
+<br>
 • Despliegue
+<br>
 • Testear prototipo y realizar ajustes si se requieren
+<br><br>
 
 Sprint 2:
+<br><br>
 • Definición de nuevas funcionalidades
+<br>
 • Prototipito de nuevas funcionalidades
+<br>
 • Testear prototipo y realizar ajustes si se requieren
+<br>
 • Codificar solución
+<br>
 • Pruebas unitarias
+<br>
 • Pilotear
+<br>
 • Despliegue
