@@ -239,6 +239,9 @@ El proyecto se basará en el Modelo Vista Controlador debido a su gran utilizaci
 Porlo tanto si un usuario desea navegar en una pagina y decide visualizar el estado de un producto, este relalizara una peticiòn directa a un controlador en especifico. Posteriormente este realizarà la solicitud con la secciòn modelo para que este a su vez realice una consulta a la base de datos.
 Posteriormente se enviará la información al controlador y desde allí a la vista quien finalmente presentará la respuesta al usuario con la solicitud.
 
+![](https://cabenavides.files.wordpress.com/2014/10/mvc.jpg)
+*https://cabenavides.files.wordpress.com/2014/10/mvc.jpg*
+
 Unas de las caracteristicas y ventajas más destacadas de este modelo son:
 - Fácil mantenimiento del código.
 - Fácil de extender y crecer (facilidad de modificación).
