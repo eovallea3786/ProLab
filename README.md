@@ -111,7 +111,9 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 | Prioridad del requerimiento | Media/Deseado |
 
 ## Requerimientos no funcionales
+
 [[Volver a tabla de contenido](#contents)]
+
 <br>
 
 | Número de requerimiento | RNF001 |
