@@ -22,13 +22,11 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 # Requerimientos
 
-[[Volver a tabla de contenido](#contents)]
-
 ## Requerimientos funcionales
 
 <br>
 
-[[Volver a tabla de contenido](#contents)]
+
 
 <br>
 
@@ -112,7 +110,6 @@ Adicionalmente el informe tendrá los requerimientos relacionados con los alcanc
 
 ## Requerimientos no funcionales
 
-[[Volver a tabla de contenido](#contents)]
 
 <br>
 
@@ -236,7 +233,6 @@ Dentro de este documento nos centraremos en identificar una necesidad actual de 
 
 ## Arquitectura de software
 
-[[Volver a tabla de contenido](#contents)]
 
 El proyecto se basará en el Modelo Vista Controlador debido a su gran utilización en el mercado, esto se debe a que la estructura desarrollada por modulos, permite al desarrollador trabajar en paralelo sin afectar la operación del software.
 
@@ -253,7 +249,6 @@ Unas de las caracteristicas y ventajas más destacadas de este modelo son:
 
 ## Metodología usada.
 
-[[Volver a tabla de contenido](#contents)]
 
 Metodología de desarrollo.
 
