@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C75D0BA9-7AFE-2A95-5381-609114C3078B" mainViewID="7BA21036-F046-E4BF-E138-ACF8E8468317">
+<createdBy>distr</createdBy>
+<createdTime>2022-05-03 13:33:08 UTC</createdTime>
+<ownerDesignName>MER ProLab</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

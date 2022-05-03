@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER ProLab" id="F476BFAE-1E8E-35F4-8154-5CDEC70F6C49" version="3.5">
+<createdBy>distr</createdBy>
+<createdTime>2022-05-03 13:33:08 UTC</createdTime>
+<ownerDesignName>MER ProLab</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F476BFAE-1E8E-35F4-8154-5CDEC70F6C49</designId>
+</OSDM_Design>
