@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DIAGRAMA RELACIONALL MINTIC C3" id="107CD6A8-4A01-1F5B-7FD5-AA809A6FE1B0" version="3.5">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:40:08 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>107CD6A8-4A01-1F5B-7FD5-AA809A6FE1B0</designId>
+</OSDM_Design>

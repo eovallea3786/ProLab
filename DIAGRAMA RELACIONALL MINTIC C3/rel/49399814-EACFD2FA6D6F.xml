@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" mainViewID="02D66CDF-60AE-D968-D382-EB04C1DA8FF1">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:40:08 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F469A2F-B2BF-28D8-52DA-FDB1D27532D2" name="PACIENTE">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:54:48 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="034C2139-DABE-5ED1-2CF5-3EC6FE019072">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:54:57 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documento_identidad" id="29878535-7D0E-C481-B598-CD67885A6260">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:55:20 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="regimen_afiliacion" id="457066DA-480C-2AF1-2D23-C13A596E3028">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:55:37 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diagnostico" id="CE030E61-3A33-BFBC-7933-43DBEE12CAC7">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:56:13 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="75E7D788-C70B-F5E4-9AC6-CD4DB889285F">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:56:46 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_paciente" id="1EEA9DFB-7B1C-F127-79B9-FF044BA542AA">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 21:04:37 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_paciente" id="F67868B9-776A-3B6D-DE41-86365DA1C53D">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 21:05:11 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AEDEAB15-0CF8-E489-B6A2-760478004641" name="PACIENTE PK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:55:19 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>034C2139-DABE-5ED1-2CF5-3EC6FE019072</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

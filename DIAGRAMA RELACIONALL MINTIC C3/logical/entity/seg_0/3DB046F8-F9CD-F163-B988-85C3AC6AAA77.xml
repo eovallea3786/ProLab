@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DB046F8-F9CD-F163-B988-85C3AC6AAA77" name="SIGNOS_VITALES">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:44:40 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_signos_vitales" id="5D8F8193-5D0C-AFBC-5D46-7BDD8E5B547A">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:45:04 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora" id="20B4FDB7-4A75-E669-B482-8A325EAFF0D2">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:47:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_registro" id="BF18DB2A-EE0F-31ED-2C7B-D64787E29CBE">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:48:12 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temperatura" id="8304F8D3-7141-5F43-95FD-6E532820237E">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:48:30 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frecuencia_respiratoria" id="EC9F1E5C-4317-C554-E610-74939EF6809C">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:49:41 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frecuencia_cardiaca" id="2EBFBBDB-AE15-9283-609D-46729A319077">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:50:28 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oximetria" id="E2F22C96-D003-6628-8680-28183416B9F8">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:51:56 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="glicemetria" id="12C17B6C-2607-E077-4FC6-4DD59968D8FF">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:52:18 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presion_arterial" id="90D6E1E9-6D89-B945-0085-E069C7468CD3">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:52:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="novedades" id="5B93BFE9-7CF2-72F7-017C-3F51B7D5F00B">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:53:03 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3635B53-7929-6E14-37E9-DD1BEBA807E5" name="SIGNOS_VITALES PK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:47:38 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D8F8193-5D0C-AFBC-5D46-7BDD8E5B547A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

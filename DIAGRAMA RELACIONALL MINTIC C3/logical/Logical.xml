@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7E88B656-EEA7-AAA1-34BF-22F47586B304" mainViewID="9FDABAF1-61B1-2B43-A243-55B0BEC9459D">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-26 20:40:08 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
