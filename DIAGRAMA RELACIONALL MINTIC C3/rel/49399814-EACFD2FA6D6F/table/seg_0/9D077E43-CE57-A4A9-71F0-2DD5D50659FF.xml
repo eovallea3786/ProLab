@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D077E43-CE57-A4A9-71F0-2DD5D50659FF" name="TIPO">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>FCF0993F-9127-03A0-CA89-8E88586669B0</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo" id="5EF43E5F-96F1-CBC2-86F3-00AE4DFF08BE">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>11D730CF-F5B6-E033-CA3F-335D0C36184F</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_familiar" id="A7C85509-543B-4D93-33D4-3F5FED5B08AE">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>9CE63192-4410-4952-0170-B556B4AA0837</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAMILIAR_id_familiar" id="672CB8C2-1A2E-9FA1-1640-FE14B3B42773">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>13528FA1-42AE-2ADF-3881-34D70F07D41F</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7815571-4AC4-8E1B-15DF-007F26A6CAF5" referredColumn="30E15905-7AE6-4C02-F3C5-165FF5FA9508"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06FD01FC-3D1D-B0EE-54EB-8DCB31FD412B" name="TIPO_PK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>F20F12AB-5DDA-62D5-3652-525B56E40967</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EF43E5F-96F1-CBC2-86F3-00AE4DFF08BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3408621D-B591-882C-BED5-306D6BA391E9" name="TIPO__IDX">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FC997E6F-B991-9754-829A-2611885149D6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="672CB8C2-1A2E-9FA1-1640-FE14B3B42773"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D277EC29-F42E-F9D9-DA00-3FC3276619B1" name="TIPO_FAMILIAR_FK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:30:22 UTC</createdTime>
+<generatorID>FC997E6F-B991-9754-829A-2611885149D6</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="672CB8C2-1A2E-9FA1-1640-FE14B3B42773"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B83A71B6-5F20-26A1-A501-56F5CAA8EF34" name="ESTADO">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>297AEF4C-156D-7DFE-5B14-9ADC2ED57ECC</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado" id="15212BED-C8CB-D43E-A6AC-E7E133EC8858">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>EA9077FE-4FC8-3730-1E80-52C321A75756</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_estado" id="FA7C5219-405E-35E8-EA8A-A68528FC5BC8">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>30924CD6-A63F-5AB2-4661-125D3F36F123</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTE_id_paciente" id="C2C1B1CA-DECB-4E99-E9FF-B8E54C8D0259">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>9CEC5DBB-A9B7-2890-64BF-A643BF5E8C82</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB56E613-A71D-8C39-65EC-88EA8A7FD199" referredColumn="39570F5C-3ECF-BFD4-F5A6-B2DED049256E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="126237E4-E110-84F8-BCD2-5D94EDF5D755" name="ESTADO_PK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>17BE8EEF-8A85-1D37-01F9-5A3D47218529</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15212BED-C8CB-D43E-A6AC-E7E133EC8858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D61F193-4A2A-AD85-28AE-28D0B889E51B" name="ESTADO__IDX">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>21DAFDED-431C-BE83-52E3-8F5DF4C1D3AE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C2C1B1CA-DECB-4E99-E9FF-B8E54C8D0259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5E8ED93-A4F4-8453-E12A-3019CD7A497F" name="ESTADO_PACIENTE_FK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:30:22 UTC</createdTime>
+<generatorID>21DAFDED-431C-BE83-52E3-8F5DF4C1D3AE</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2C1B1CA-DECB-4E99-E9FF-B8E54C8D0259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

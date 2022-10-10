@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C25789AE-2A8B-BE88-C95F-E08DBDA09E6A" name="FAMILIAR">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>43DB5A6A-C182-582C-D343-A055639EF663</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_familiar" id="30E15905-7AE6-4C02-F3C5-165FF5FA9508">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>10609449-3FC3-12BE-D2AB-D0C281E941A1</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_familiar" id="EA3889C4-EBFB-38A7-EEBF-90CB9B3CF405">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>EA5DEA13-1D3C-1021-0FB2-361AB29FECF3</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_telefono" id="C0C9C472-A2C3-8B71-91E3-3A448064DC1D">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>FE09D08D-1045-FEFE-681B-899248C511FE</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_electronico" id="D5A395AC-4C21-E94F-114D-0C3F09BA673E">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>C354394E-F8E4-5E36-88EF-57A8D3ADE449</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="F588BDB9-BDEB-728F-F7CC-0B1C83E09308">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>63B8FD2C-CEFB-D641-3866-BC52AF55231D</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTE_id_paciente" id="85225B93-C0EF-B921-86DE-FFB99A5944B1">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>BB996ADD-B749-F143-A2E5-5A61D631B605</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="946AB21F-7888-CDC4-29A7-3718676495C1" referredColumn="39570F5C-3ECF-BFD4-F5A6-B2DED049256E"/>
+</associations>
+</Column>
+<Column name="TIPO_id_tipo" id="A838298B-F6D2-B167-7C6B-D2841AC1AF8C">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>2AF8B747-160E-05D9-910A-E450FF04FC06</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70EE6CE0-FC59-6634-A14F-731BD8916CCC" referredColumn="5EF43E5F-96F1-CBC2-86F3-00AE4DFF08BE"/>
+</associations>
+</Column>
+<Column name="MEDICO_id_medico" id="B6C62E48-0962-B616-29FD-C19D358F39C9">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>1996B686-67D6-D9E7-B737-D3492100AB11</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6AF5FE0-FAF8-D5DF-8CED-5838EC47A82B" referredColumn="E038A8CE-24D0-C87F-8EB7-7D2F624F418E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29D3E055-CC96-325E-D5E0-81548D49B9F2" name="FAMILIAR_PK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<generatorID>2314CE6D-622B-F4F1-A2FE-E77D8786FA09</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30E15905-7AE6-4C02-F3C5-165FF5FA9508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2340C85D-699C-7741-19EF-3C6976ADE855" name="FAMILIAR__IDX">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4C542247-1940-EC62-6AC2-A28EDFF66D95</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="85225B93-C0EF-B921-86DE-FFB99A5944B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D26539A2-92D7-47F4-AE40-E97D65DAEDDD" name="FAMILIAR__IDXv1">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FC997E6F-B991-9754-829A-2611885149D6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A838298B-F6D2-B167-7C6B-D2841AC1AF8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="952CCBCE-6913-1B09-0A86-9762567C4AC2" name="FAMILIAR__IDXv2">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:41 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E7EF050F-415C-B4FE-DCBC-98DF286414AA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B6C62E48-0962-B616-29FD-C19D358F39C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB63469E-A6F2-57EB-A2E0-1C548095E86E" name="FAMILIAR_PACIENTE_FK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:30:22 UTC</createdTime>
+<generatorID>4C542247-1940-EC62-6AC2-A28EDFF66D95</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85225B93-C0EF-B921-86DE-FFB99A5944B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D82D351-3E91-4026-5308-F784B21D1540" name="FAMILIAR_TIPO_FK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:30:22 UTC</createdTime>
+<generatorID>FC997E6F-B991-9754-829A-2611885149D6</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A838298B-F6D2-B167-7C6B-D2841AC1AF8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A472256C-583B-7067-C4AB-2157AC1C6DCF" name="FAMILIAR_MEDICO_FK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:30:22 UTC</createdTime>
+<generatorID>E7EF050F-415C-B4FE-DCBC-98DF286414AA</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C62E48-0962-B616-29FD-C19D358F39C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

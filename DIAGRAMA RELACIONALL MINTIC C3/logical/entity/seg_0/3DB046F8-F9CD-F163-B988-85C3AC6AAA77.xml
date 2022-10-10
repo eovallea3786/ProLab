@@ -151,6 +151,20 @@
 <dataTypeSize>150 CHAR</dataTypeSize>
 <ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_paciente" id="66D20A8F-E417-4517-C266-B98D995B3506">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:22:06 UTC</createdTime>
+<generatorID>AFA76A5C-6C14-A044-4D70-E750034745BB</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<referedAttribute>034C2139-DABE-5ED1-2CF5-3EC6FE019072</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F3635B53-7929-6E14-37E9-DD1BEBA807E5" name="SIGNOS_VITALES PK">

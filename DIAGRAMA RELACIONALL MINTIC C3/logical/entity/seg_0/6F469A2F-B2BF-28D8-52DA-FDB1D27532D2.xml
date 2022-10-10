@@ -103,6 +103,61 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_signos_vitales" id="9FA6707E-8DCC-B6FF-9A7B-B41FB6411D07">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:22:27 UTC</createdTime>
+<generatorID>AFA76A5C-6C14-A044-4D70-E750034745BB</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<referedAttribute>5D8F8193-5D0C-AFBC-5D46-7BDD8E5B547A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_hospitalizacion" id="A2D62D20-FEA8-F519-11A4-5BE80E034961">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:22:39 UTC</createdTime>
+<generatorID>E304DE45-8F9F-D314-EFA8-F0519654653C</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<referedAttribute>AA7BAB7B-54D0-774B-7887-E6AE5D402D01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_familiar" id="B30A7459-2BF4-892E-1A01-82004A83F932">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:23:05 UTC</createdTime>
+<generatorID>4C542247-1940-EC62-6AC2-A28EDFF66D95</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<referedAttribute>10609449-3FC3-12BE-D2AB-D0C281E941A1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado" id="0786E2C6-3AFC-D7B8-9869-5331530933F5">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:23:20 UTC</createdTime>
+<generatorID>21DAFDED-431C-BE83-52E3-8F5DF4C1D3AE</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<referedAttribute>EA9077FE-4FC8-3730-1E80-52C321A75756</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AEDEAB15-0CF8-E489-B6A2-760478004641" name="PACIENTE PK">

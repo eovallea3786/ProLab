@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43DB5A6A-C182-582C-D343-A055639EF663" name="FAMILIAR">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="456A9763-19AD-DC09-061A-148C5626950C" name="MEDICO">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-26 21:13:41 UTC</createdTime>
+<createdTime>2022-08-27 11:12:38 UTC</createdTime>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
@@ -15,19 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_familiar" id="10609449-3FC3-12BE-D2AB-D0C281E941A1">
+<Attribute name="id_medico" id="EF8651C6-4E76-B2F3-D525-82A7C495E193">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-26 21:14:35 UTC</createdTime>
+<createdTime>2022-08-27 11:12:50 UTC</createdTime>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre_familiar" id="EA5DEA13-1D3C-1021-0FB2-361AB29FECF3">
+<Attribute name="tarjeta_profesional" id="5EA1792C-14CF-EF33-F7E8-317E70620591">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-26 21:14:43 UTC</createdTime>
+<createdTime>2022-08-27 11:13:22 UTC</createdTime>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
@@ -39,22 +41,9 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_telefono" id="FE09D08D-1045-FEFE-681B-899248C511FE">
+<Attribute name="nombre_medico" id="207BBB38-EE1D-4C45-A18F-CA76F1E21D0D">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-27 07:27:39 UTC</createdTime>
-<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
-<engineerTo>
-<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="correo_electronico" id="C354394E-F8E4-5E36-88EF-57A8D3ADE449">
-<createdBy>distr</createdBy>
-<createdTime>2022-08-27 07:49:20 UTC</createdTime>
+<createdTime>2022-08-27 11:13:50 UTC</createdTime>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
@@ -63,12 +52,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_nacimiento" id="63B8FD2C-CEFB-D641-3866-BC52AF55231D">
+<Attribute name="especialidad" id="40D2F9D9-D5DA-E542-F5AC-6611DBB2C630">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-27 07:51:57 UTC</createdTime>
+<createdTime>2022-08-27 11:18:03 UTC</createdTime>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
@@ -76,46 +65,58 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_paciente" id="BB996ADD-B749-F143-A2E5-5A61D631B605">
+<Attribute name="numero_telefono" id="65793C6D-2BAE-040A-F9AC-8CEA82095AFE">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-27 11:23:01 UTC</createdTime>
-<generatorID>4C542247-1940-EC62-6AC2-A28EDFF66D95</generatorID>
+<createdTime>2022-08-27 11:18:22 UTC</createdTime>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
 </engineerTo>
-<referedAttribute>034C2139-DABE-5ED1-2CF5-3EC6FE019072</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_tipo" id="2AF8B747-160E-05D9-910A-E450FF04FC06">
+<Attribute name="correo_electronico" id="58151191-F4C1-537E-F8DA-B30C9350FCE0">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-27 11:23:31 UTC</createdTime>
-<generatorID>FC997E6F-B991-9754-829A-2611885149D6</generatorID>
+<createdTime>2022-08-27 11:19:16 UTC</createdTime>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
 </engineerTo>
-<referedAttribute>11D730CF-F5B6-E033-CA3F-335D0C36184F</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_medico" id="1996B686-67D6-D9E7-B737-D3492100AB11">
+<Attribute name="id_familiar" id="7E8CF6DF-FAE0-A967-CC18-34B6DB6B395D">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-27 11:23:45 UTC</createdTime>
+<createdTime>2022-08-27 11:23:41 UTC</createdTime>
 <generatorID>E7EF050F-415C-B4FE-DCBC-98DF286414AA</generatorID>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
 </engineerTo>
-<referedAttribute>EF8651C6-4E76-B2F3-D525-82A7C495E193</referedAttribute>
+<referedAttribute>10609449-3FC3-12BE-D2AB-D0C281E941A1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sugerencia" id="240672F9-9BE3-8DBC-F477-6DB890523FCC">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:24:22 UTC</createdTime>
+<generatorID>6C0BE2EB-FFF5-3855-40FB-2E57E6DA529D</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<referedAttribute>FB4F5AA9-50AA-5227-4413-FF8CC3D38F38</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -123,16 +124,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2314CE6D-622B-F4F1-A2FE-E77D8786FA09" name="FAMILIAR PK">
+<identifier id="7F056220-3EF9-EFFD-EEEB-5B4EDE43F306" name="MEDICO PK">
 <createdBy>distr</createdBy>
-<createdTime>2022-08-27 11:11:38 UTC</createdTime>
+<createdTime>2022-08-27 11:13:52 UTC</createdTime>
 <ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
 <engineerTo>
 <item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>10609449-3FC3-12BE-D2AB-D0C281E941A1</attributeRef>
+<attributeRef>EF8651C6-4E76-B2F3-D525-82A7C495E193</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB56E613-A71D-8C39-65EC-88EA8A7FD199" containerWithKeyObject="B83A71B6-5F20-26A1-A501-56F5CAA8EF34" localFKIndex="C5E8ED93-A4F4-8453-E12A-3019CD7A497F" name="ESTADO_PACIENTE_FK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:30:22 UTC</createdTime>
+<generatorID>21DAFDED-431C-BE83-52E3-8F5DF4C1D3AE</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<referredTableLongName>PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F9C9B31-A96E-0181-AE2F-6316CD56E9CC</referredTableID>
+<keyObject>214E7D45-7DBE-B0E9-3A6D-BA19C1B9960A</keyObject>
+<referredKeyID>214E7D45-7DBE-B0E9-3A6D-BA19C1B9960A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_paciente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

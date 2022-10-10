@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="70EE6CE0-FC59-6634-A14F-731BD8916CCC" containerWithKeyObject="C25789AE-2A8B-BE88-C95F-E08DBDA09E6A" localFKIndex="3D82D351-3E91-4026-5308-F784B21D1540" name="FAMILIAR_TIPO_FK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:30:22 UTC</createdTime>
+<generatorID>FC997E6F-B991-9754-829A-2611885149D6</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<referredTableLongName>TIPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D077E43-CE57-A4A9-71F0-2DD5D50659FF</referredTableID>
+<keyObject>06FD01FC-3D1D-B0EE-54EB-8DCB31FD412B</keyObject>
+<referredKeyID>06FD01FC-3D1D-B0EE-54EB-8DCB31FD412B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

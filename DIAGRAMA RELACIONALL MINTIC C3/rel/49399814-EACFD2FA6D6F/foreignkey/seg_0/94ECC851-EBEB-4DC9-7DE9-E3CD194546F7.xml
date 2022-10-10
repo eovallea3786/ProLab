@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94ECC851-EBEB-4DC9-7DE9-E3CD194546F7" containerWithKeyObject="C66EC2A5-D0FE-2F78-E613-74B981162D1C" localFKIndex="2BED45BF-D9B3-63A9-77EC-BDD009D34219" name="MEDICO_SUGERENCIA_FK">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:30:22 UTC</createdTime>
+<generatorID>6C0BE2EB-FFF5-3855-40FB-2E57E6DA529D</generatorID>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<referredTableLongName>SUGERENCIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F38D6DAB-B43A-542F-8406-3A25CB988A4A</referredTableID>
+<keyObject>3D703336-C4E1-B0C0-799C-FD6216290829</keyObject>
+<referredKeyID>3D703336-C4E1-B0C0-799C-FD6216290829</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sugerencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

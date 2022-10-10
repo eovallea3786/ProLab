@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="21DAFDED-431C-BE83-52E3-8F5DF4C1D3AE">
+<createdBy>distr</createdBy>
+<createdTime>2022-08-27 11:23:16 UTC</createdTime>
+<ownerDesignName>DIAGRAMA RELACIONALL MINTIC C3</ownerDesignName>
+<engineerTo>
+<item key="49399814-C3C9-8B9F-BB0C-EACFD2FA6D6F" value="true"/>
+</engineerTo>
+<sourcePk>AEDEAB15-0CF8-E489-B6A2-760478004641</sourcePk>
+<targetPk>17BE8EEF-8A85-1D37-01F9-5A3D47218529</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F469A2F-B2BF-28D8-52DA-FDB1D27532D2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>297AEF4C-156D-7DFE-5B14-9ADC2ED57ECC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
